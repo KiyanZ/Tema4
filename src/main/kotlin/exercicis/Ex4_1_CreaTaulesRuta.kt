@@ -12,7 +12,7 @@ fun main() {
             "nom_r TEXT, " +
             "desn INTEGER, " +
             "desn_ac INTEGER, " +
-            "CONSTRAINT cp_rut PRIMARY KEY (num_r)"
+            "CONSTRAINT cp_rut PRIMARY KEY (num_r)" +
             ")"
 
     val sqlSent2 = "CREATE TABLE PUNTS(" +
@@ -24,8 +24,8 @@ fun main() {
             "CONSTRAINT cp_punt PRIMARY KEY (num_r, num_p)" +
             ")"
 
-    st.executeUpdate(sqlSent2)
     st.executeUpdate(sqlSent)
+    st.executeUpdate(sqlSent2)
 
     st.close()
     con.close()

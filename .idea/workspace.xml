@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc0a325-21c0-4529-8c30-5c6e006a8f63" name="Changes" comment="4.1 almost done">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercicis/Ex3_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercicis/RouteClasses.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercicis/Ex4_1_CreaTaulesRuta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercicis/Ex4_1_CreaTaulesRuta.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercicis/Ex4_2_PassarRutesObjSQLite.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercicis/Ex4_2_PassarRutesObjSQLite.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercicis/Ex4_3_VisRutes_SQLite.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercicis/Ex4_3_VisRutes_SQLite.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +56,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Ex4_1_CreaTaulesRutaKt">
+  <component name="RunManager" selected="Kotlin.Ex4_2_PassarRutesObjSQLiteKt">
     <configuration name="Ex4_1_CreaTaulesRutaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicis.Ex4_1_CreaTaulesRutaKt" />
       <module name="Tema4" />
@@ -61,8 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exemple_4_21_EmpleatsCrearTaulaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exemples.Exemple_4_21_EmpleatsCrearTaulaKt" />
+    <configuration name="Ex4_2_PassarRutesObjSQLiteKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicis.Ex4_2_PassarRutesObjSQLiteKt" />
       <module name="Tema4" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Ex4_2_PassarRutesObjSQLiteKt" />
         <item itemvalue="Kotlin.Ex4_1_CreaTaulesRutaKt" />
         <item itemvalue="Kotlin.Exemple_4_24_EmpleatsConsultarKt" />
         <item itemvalue="Kotlin.Exemple_4_23_EmpleatsModificarKt" />
         <item itemvalue="Kotlin.Exemple_4_22_EmpleatsInserirKt" />
-        <item itemvalue="Kotlin.Exemple_4_21_EmpleatsCrearTaulaKt" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +116,7 @@
       <workItem from="1666808585670" duration="527000" />
       <workItem from="1667573213573" duration="4560000" />
       <workItem from="1667931432827" duration="2990000" />
-      <workItem from="1667934763054" duration="340000" />
+      <workItem from="1667934763054" duration="2128000" />
     </task>
     <task id="LOCAL-00001" summary="4.1 almost done">
       <created>1667933745024</created>
@@ -136,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667934853523</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4.1 almost done">
+      <created>1667935155527</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667935155527</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

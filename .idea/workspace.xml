@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cc0a325-21c0-4529-8c30-5c6e006a8f63" name="Changes" comment="" />
+    <list default="true" id="4cc0a325-21c0-4529-8c30-5c6e006a8f63" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exemples/Exemple_4_11_provaSQLIteCreacioTaula.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exemples/Exemple_4_12_consultaPostgreSQL.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exemples/Exemple_4_13_consultaMySQL.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exemples/Exemple_4_21_EmpleatsCrearTaula.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exemples/Exemple_4_22_EmpleatsInserir.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exemples/Exemple_4_23_EmpleatsModificar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exemples/Exemple_4_24_EmpleatsConsultar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exemples/Exemple_4_2_ConnexioMySQL.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exemples/Exemple_4_3_ConnexioSQLite.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercicis/Ex4_1_CreaTaulesRuta.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tema4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exemples/Exemple_4_1_ConnexioPostgreSQL.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exemples/Exemple_4_1_ConnexioPostgreSQL.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GMdNSNkSyMUoj6sGd5FwPr7efa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,13 +42,71 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/INFORMATICA/alu10467008/Escriptori/jars/mysql-connector-java-8.0.30.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;,
+      &quot;mysql&quot;,
+      &quot;sqlite&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Kotlin.Ex4_1_CreaTaulesRutaKt">
+    <configuration name="Ex4_1_CreaTaulesRutaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicis.Ex4_1_CreaTaulesRutaKt" />
+      <module name="Tema4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exemple_4_21_EmpleatsCrearTaulaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exemples.Exemple_4_21_EmpleatsCrearTaulaKt" />
+      <module name="Tema4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exemple_4_22_EmpleatsInserirKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exemples.Exemple_4_22_EmpleatsInserirKt" />
+      <module name="Tema4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exemple_4_23_EmpleatsModificarKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exemples.Exemple_4_23_EmpleatsModificarKt" />
+      <module name="Tema4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exemple_4_24_EmpleatsConsultarKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exemples.Exemple_4_24_EmpleatsConsultarKt" />
+      <module name="Tema4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.Ex4_1_CreaTaulesRutaKt" />
+        <item itemvalue="Kotlin.Exemple_4_24_EmpleatsConsultarKt" />
+        <item itemvalue="Kotlin.Exemple_4_23_EmpleatsModificarKt" />
+        <item itemvalue="Kotlin.Exemple_4_22_EmpleatsInserirKt" />
+        <item itemvalue="Kotlin.Exemple_4_21_EmpleatsCrearTaulaKt" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,7 +115,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666202348610</updated>
+      <workItem from="1666202350157" duration="2030000" />
+      <workItem from="1666358727025" duration="2798000" />
+      <workItem from="1666617708858" duration="41000" />
+      <workItem from="1666808585670" duration="527000" />
+      <workItem from="1667573213573" duration="4560000" />
+      <workItem from="1667931432827" duration="1788000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

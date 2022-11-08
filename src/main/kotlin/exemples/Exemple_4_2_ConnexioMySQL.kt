@@ -3,11 +3,11 @@ package exemples
 import java.sql.DriverManager
 
 fun main(args: Array<String>) {
-    val url = "jdbc:postgresql://89.36.214.106:5432/geo_ad"
-    val usuari = "geo_ad"
-    val password = "geo_ad"
+    val url = "jdbc:mysql://89.36.214.106:3306/factura"
+    val usuari = "factura"
+    val password = "factura"
 
     val con = DriverManager.getConnection(url, usuari, password)
-    println("Connexió completada")
+    System.out.println("Connexió completada")
     con.close()
 }

@@ -26,15 +26,20 @@ fun main() {
                     "${r.desnivellAcumulat} " +
                     ")"
 
-            sentSQLpunt = "INSERT INTO PUNTS VALUES (" +
-                    "$pkey  ," +
-                    "'${r.llistaDePunts}' ," +
-                    "${r.desnivell} ," +
-                    "${r.desnivellAcumulat} " +
-                    ")"
-
             println(sentSQL)
             st.executeUpdate(sentSQL)
+
+            for (i in 0 until r.llistaDePunts.size) {
+                sentSQLpunt = "INSERT INTO PUNTS VALUES (" +
+                        "$pkey  ," +
+                        "${i + 1}," +
+                        "'${r.llistaDePunts[i].nom}' ," +
+                        "${r.getPuntLatitud(i)} ," +
+                        "${r.getPuntLongitud(i)} " +
+                        ")"
+                println(sentSQLpunt)
+                st.executeUpdate(sentSQLpunt)
+            }
         }
     } catch (eof: EOFException) {
         obj.close()
